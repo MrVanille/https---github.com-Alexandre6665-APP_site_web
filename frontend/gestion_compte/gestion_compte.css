@@ -2,9 +2,11 @@ html,
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     background: white;
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header {
@@ -13,13 +15,16 @@ body {
     position: fixed;
     width: 100%;
     margin: 0;
-    margin-top: 10px;
-    height: 70px;
+    height: 90px;
     display: flex;
     justify-content: space-between;
-    padding: 0;
     background: linear-gradient(129deg, #F24E1E, #68a4d8);
 
+}
+
+.header nav,
+img {
+    margin-top: 25px;
 }
 
 .logo {
@@ -128,4 +133,95 @@ body {
 
 i {
     margin-left: 5px;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    padding: 20px;
+}
+
+.h2-title {
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: large;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+.main-column-1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.main-column-2 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+}
+
+footer {
+    height: 80px;
+    background: linear-gradient(129deg, #F24E1E, #68a4d8);
+}
+
+.footer {
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-size: 20px;
+
+}
+
+.footer-2 {
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-size: 20px;
+
+}
+
+
+.footer a {
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: small;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.footer-2 a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: small;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 50px;
 }
