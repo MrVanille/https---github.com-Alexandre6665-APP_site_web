@@ -18,6 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0;
+    background: linear-gradient(129deg, #F24E1E, #68a4d8);
 
 }
 
