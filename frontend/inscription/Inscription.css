@@ -16,6 +16,7 @@ body {
     height: 620px;
     margin: auto;
     padding-top: 100px;
+    padding-bottom: 30px;
 }
 
 .creation a {
@@ -95,7 +96,7 @@ p {
     position: fixed;
     width: 100%;
     margin: 0;
-    height: 70px;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     padding: 0;
@@ -105,7 +106,7 @@ p {
 
 .header nav,
 img {
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .logo {
