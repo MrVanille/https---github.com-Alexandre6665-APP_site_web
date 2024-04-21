@@ -34,6 +34,10 @@ h2 {
 
 }
 
+hr {
+    margin-bottom: 30px;
+}
+
 
 form {
     width: 300px;
@@ -60,7 +64,7 @@ form input[type="button"] {
     font-weight: bold;
     margin-left: 60px;
     background-color: rgb(213, 209, 209);
-
+    cursor: pointer;
 }
 
 form input[type="button"]:hover {
@@ -208,4 +212,27 @@ form input[type="button"]:hover {
 
 i {
     margin-left: 5px;
+}
+.footer {
+    background-color: rgb(213, 209, 209);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 80px 0 100px;
+}
+    
+.footer button {
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    border: none;
+    background-color: rgb(213, 209, 209);
+    height: 20px;
+    cursor: pointer;
 }
