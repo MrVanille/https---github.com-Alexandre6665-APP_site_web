@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    width: 100%;
     background: white;
     margin: 0;
     padding: 0;
@@ -138,27 +139,39 @@ i {
 main {
     display: flex;
     flex: 1;
-    align-items: center;
     width: 100%;
     height: 100%;
     background: inherit;
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
     padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
-.h2-title {
-    font-style: italic;
-    font-weight: 100;
+h2 {
     text-align: center;
-    justify-content: center;
-    margin-top: 20px;
-    font-size: large;
+    justify-content: flex-start;
 }
 
 hr {
     margin-bottom: 30px;
+    width: 100%;
 }
+
+.creation {
+    background: inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    margin-top: 50px;
+    padding-top: 0;
+}
+
+
+
 
 .main-column-1 {
     display: flex;
