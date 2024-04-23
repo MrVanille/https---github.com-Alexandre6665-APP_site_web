@@ -227,17 +227,18 @@ i {
     margin-top: 25px;
     position: relative;
     bottom: 20px;
-    left: 230px;
+    left: 50px;
+    background: none;
 }
+
 .selected-lang {
-    cursor:pointer;
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
-    line-height: 2 ;
+    line-height: 2;
     width: 110px;
-
-
 }
+
 .selected-lang::before {
     content: '';
     display: block;
@@ -245,37 +246,43 @@ i {
     height: 32px;
     background-image: url(https://flagsapi.com/FR/flat/32.png);
 }
+
 .lang-menu ul {
     margin: 0;
     padding: 0;
-    background-color: white;
-    border: 1px solid #f8f8f8;
+    background-color: rgb(213, 209, 209);
+    border: none;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
     display: none;
     position: absolute;
     top: 30px;
     left: 0;
 }
+
 .lang-menu ul li {
+    background: none;
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
+
 .lang-menu ul li a {
     width: 125px;
     display: block;
     padding: 5px 10px;
+    color: black;
 
 }
+
 .lang-menu ul li a:hover {
     background: linear-gradient(129deg, #F24E1E, #68a4d8);
     cursor: pointer;
     border-radius: 5px;
- 
+    scale: 1.1;
+
 }
 
-.lang-menu ul li a:before{
+.lang-menu ul li a:before {
     content: '';
     display: inline-block;
     width: 32px;
