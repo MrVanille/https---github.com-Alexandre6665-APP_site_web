@@ -244,7 +244,7 @@ i {
     display: block;
 }
 .container1 {
-    min-height: calc(70vh - 59px);
+    min-height: calc(45vh - 59px);
     display: flex;
     align-items: center;
     justify-content: left;
@@ -294,22 +294,30 @@ i {
     display: flex;
     flex-direction: row;
     float: inline-start;
-    height: 450px;
+    height: 230px;
 
 }
 .container2 img {
     width: 130px;
-    height: auto;
     padding-left: 200px;
     
 }
 .container2 figcaption {
-    width: 150px;
-    height: auto;
-    padding-left: 200px;
-    display: flex;
-    justify-content: center;
+    font-size: 0.9rem;
+    width: 120px;
+    padding-left: 215px;
+    padding-top: 5px;
 }
+.commentaire {
+    height: 300px;
+    margin-top: 230px;
+    padding: 15px;
+}
+.commentaire p {
+    padding-bottom: 15px;
+}
+
+
 
 
 
