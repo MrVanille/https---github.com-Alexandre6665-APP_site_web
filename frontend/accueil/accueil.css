@@ -243,6 +243,7 @@ i {
 .lang-menu:hover ul {
     display: block;
 }
+
 .container1 {
     min-height: calc(65vh - 59px);
     display: flex;
@@ -254,19 +255,21 @@ i {
     background-position: center;
 
 }
+
 .container1-2 {
- display: flex;
- flex-direction: column;
- margin-left: 120px;
- margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 25px;
 }
 
 .container1 p {
     font-size: 1.7rem;
     color: white;
 
-    
+
 }
+
 .container1 button {
     max-width: 180px;
     min-height: 25px;
@@ -277,7 +280,7 @@ i {
     justify-content: center;
     margin-right: 40px;
     margin-bottom: 10px;
-    margin-top:0;
+    margin-top: 0;
     padding: 8px 15px;
     border: none;
     border-radius: 5px;
@@ -296,15 +299,18 @@ i {
     flex-direction: row;
     justify-content: center;
     height: 60px;
+    background: rgb(213, 209, 209);
 
 }
+
 .container2 img {
     width: 110px;
     padding-left: 50px;
     margin-right: 140px;
     margin-left: 140px;
-    
+
 }
+
 .container2 figcaption {
     font-size: 1rem;
     width: 150px;
@@ -321,7 +327,8 @@ i {
     background-image: url();
     height: 200px;
 }
-.equipe p { 
+
+.equipe p {
     color: black;
 }
 
