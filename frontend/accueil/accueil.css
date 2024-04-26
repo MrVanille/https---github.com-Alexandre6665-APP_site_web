@@ -244,7 +244,7 @@ i {
     display: block;
 }
 .container1 {
-    min-height: calc(45vh - 59px);
+    min-height: calc(65vh - 59px);
     display: flex;
     align-items: center;
     justify-content: left;
@@ -258,6 +258,7 @@ i {
  display: flex;
  flex-direction: column;
  margin-left: 120px;
+ margin-top: 25px;
 }
 
 .container1 p {
@@ -293,32 +294,36 @@ i {
 .container2 {
     display: flex;
     flex-direction: row;
-    float: inline-start;
-    height: 230px;
+    justify-content: center;
+    height: 60px;
 
 }
 .container2 img {
-    width: 130px;
-    padding-left: 200px;
+    width: 110px;
+    padding-left: 50px;
+    margin-right: 140px;
+    margin-left: 140px;
     
 }
 .container2 figcaption {
-    font-size: 0.9rem;
-    width: 120px;
-    padding-left: 215px;
+    font-size: 1rem;
+    width: 150px;
+    margin-right: 140px;
+    margin-left: 140px;
+    padding-left: 50px;
     padding-top: 5px;
 }
-.commentaire {
-    height: 300px;
-    margin-top: 230px;
-    padding: 15px;
+
+.equipe {
+    margin-top: 140px;
+    margin-bottom: 40px;
+    background-color: #68a4d8;
+    background-image: url();
+    height: 200px;
 }
-.commentaire p {
-    padding-bottom: 15px;
+.equipe p { 
+    color: black;
 }
-
-
-
 
 
 footer {
