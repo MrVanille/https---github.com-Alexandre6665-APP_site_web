@@ -7,6 +7,10 @@ body {
     padding: 0;
 }
 
+body {
+    min-height: 100vh;
+}
+
 
 
 .creation {
@@ -16,7 +20,8 @@ body {
     width: 360px;
     height: 620px;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .creation input {
@@ -45,7 +50,8 @@ form {
     margin-left: 20px;
 }
 
-form input {
+form input,
+textarea {
     display: flex;
     margin-top: 20px;
     width: 100%;
@@ -74,7 +80,14 @@ form input[type="button"]:hover {
     scale: 1.1;
 }
 
-
+.creation form textarea {
+    background-color: rgb(213, 209, 209);
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: small;
+    font-style: italic;
+    font-weight: bold;
+}
 
 .creation p {
     font-family: 'Montserrat', sans-serif;
@@ -117,8 +130,9 @@ img {
 }
 
 .main {
-    width: 100%;
-
+    flex: 1;
+    overflow: auto;
+    padding-bottom: 100px;
 }
 
 .msg {
@@ -345,7 +359,6 @@ footer {
     text-align: center;
     cursor: pointer;
 }
-
 
 .footer-2 a {
     font-family: 'Montserrat', sans-serif;
