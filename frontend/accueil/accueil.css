@@ -335,6 +335,7 @@ i {
 footer {
     height: 80px;
     background: linear-gradient(129deg, #F24E1E, #68a4d8);
+    bottom: 0;
 }
 
 .footer {

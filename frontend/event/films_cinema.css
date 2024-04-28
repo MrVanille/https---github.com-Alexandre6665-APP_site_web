@@ -55,6 +55,7 @@ img {
     margin-left: 10px;
 }
 
+
 .main {
     width: 100%;
 
@@ -263,6 +264,7 @@ i {
     font-size: 2.3rem;
     color: black;
 }
+
 .container1 span {
     color: white;
     font-size: 3rem;
@@ -271,12 +273,12 @@ i {
 }
 
 .choix-film {
-    background-color: #c6c0c0;
+    background-color: rgb(213, 209, 209);
     margin: 10px 375px;
     height: 100px;
     border-radius: 10px;
     padding: 10px;
-    
+
 }
 
 .choix-film p {
@@ -286,56 +288,83 @@ i {
 
 .choix-film .recherche button {
     border-radius: 5px;
-    box-shadow: 2px 3px 3px black;
     background-color: #ff5f09;
     color: white;
     height: 35px;
     width: 175px;
     margin-left: 15px;
     margin-right: 15px;
+    border: none;
 
 }
+
+.recherche button:hover {
+    background: linear-gradient(129deg, #f24e1e, #68a4d8);
+    cursor: pointer;
+}
+
 .choix-film .recherche input {
     border-radius: 5px;
-    box-shadow: 2px 3px 3px black;
     height: 30px;
-    width:  100%;
+    width: 100%;
     margin-left: 15px;
     margin-right: 15px;
 }
-.recherche{
+
+.recherche {
     padding: 5px 15px;
     display: flex;
     justify-content: space-evenly;
-    
+
 }
+
+.recherche button span {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.recherche input[type="text"] {
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+
 .affiche {
-    margin: 10px 375px;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: black;
     color: white;
-    width: 800px;
+    width: 100%;
     height: 300px;
+    margin-left: inherit;
 }
+
 .news {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: 10px 310px;
     padding-bottom: 60px;
 }
+
 .news h2 {
     font-size: 1.7rem;
     margin-left: 30px;
     /* padding-left: 30px; */
 }
+
 .festival {
-    background-color: #c6c0c0;
-    width: 1100px;
+    background-color: rgb(213, 209, 209);
     border-radius: 10px;
     padding: 0px 10px 0px 10px;
+    width: inherit;
 }
+
 .festival h3 {
     display: flex;
     justify-content: center;
@@ -343,26 +372,32 @@ i {
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
 }
+
 .text {
     display: flex;
     flex-direction: row;
     justify-content: baseline;
     align-items: center;
 }
-.text p{
+
+.text p {
     margin: 15px;
     position: relative;
     bottom: 15px;
 }
+
 .text img {
     margin-bottom: 15px;
     margin-left: 15px;
     position: relative;
     bottom: 15px;
 }
+
 footer {
     height: 80px;
     background: linear-gradient(129deg, #F24E1E, #68a4d8);
+    width: 100%;
+    bottom: 0;
 }
 
 .footer {

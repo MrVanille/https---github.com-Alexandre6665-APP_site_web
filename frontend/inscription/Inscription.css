@@ -15,7 +15,7 @@ body {
     width: 360px;
     height: 620px;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 30px;
 }
 
@@ -29,6 +29,10 @@ body {
     font-style: italic;
     font-weight: 600;
 
+}
+
+.creation p {
+    margin-top: 20px;
 }
 
 h2 {
@@ -306,6 +310,8 @@ i {
 footer {
     height: 80px;
     background: linear-gradient(129deg, #F24E1E, #68a4d8);
+    width: 100%;
+    bottom: 0;
 }
 
 .footer {

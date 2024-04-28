@@ -8,6 +8,7 @@ body {
 }
 
 
+
 .creation {
     background: inherit;
     font-family: 'Montserrat', sans-serif;
@@ -120,7 +121,9 @@ img {
 
 }
 
-
+.msg {
+    height: 100px;
+}
 
 .navbar {
     display: flex;
@@ -302,7 +305,10 @@ i {
 footer {
     height: 80px;
     background: linear-gradient(129deg, #F24E1E, #68a4d8);
+    width: 100%;
+    bottom: 0;
 }
+
 
 .footer {
     width: 100%;
@@ -323,6 +329,7 @@ footer {
     justify-content: space-evenly;
     align-items: flex-start;
     font-size: 20px;
+    margin-bottom: 0;
 
 }
 
