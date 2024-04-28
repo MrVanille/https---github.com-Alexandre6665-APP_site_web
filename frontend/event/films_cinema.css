@@ -332,6 +332,7 @@ i {
 }
 
 
+
 .affiche {
     display: flex;
     justify-content: center;
@@ -347,7 +348,6 @@ i {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     margin: 10px 310px;
     padding-bottom: 60px;
 }
@@ -355,7 +355,7 @@ i {
 .news h2 {
     font-size: 1.7rem;
     margin-left: 30px;
-    /* padding-left: 30px; */
+
 }
 
 .festival {
