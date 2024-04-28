@@ -7,6 +7,9 @@ body {
     padding: 0;
 }
 
+body {
+    width: 100%;
+}
 
 
 h2 {
@@ -263,6 +266,26 @@ i {
     margin-top: 25px;
 }
 
+.france figcaption strong {
+    margin-right: 10px;
+    font-style: italic;
+    font-family: "Montserrat", sans-serif;
+    font-size: small;
+}
+
+.europeen figcaption strong {
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-size: small;
+}
+
+.container1-2 button a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: black;
+}
+
 .container1 p {
     font-size: 1.7rem;
     color: white;
@@ -304,7 +327,7 @@ i {
 
 .container2 img {
     width: 110px;
-    padding-left: 50px;
+    padding-left: 70px;
     margin-right: 140px;
     margin-left: 140px;
 
@@ -317,6 +340,10 @@ i {
     margin-left: 140px;
     padding-left: 50px;
     padding-top: 5px;
+}
+
+.france img {
+    padding-right: 20px;
 }
 
 .equipe {
@@ -384,4 +411,16 @@ footer {
     text-align: center;
     cursor: pointer;
     margin-right: 50px;
+}
+
+#faq {
+    padding-right: 40px;
+}
+
+#mentions {
+    padding-right: 30px;
+}
+
+#conditions {
+    margin-left: 20px;
 }

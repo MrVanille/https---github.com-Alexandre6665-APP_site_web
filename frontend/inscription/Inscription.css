@@ -361,3 +361,15 @@ footer {
     cursor: pointer;
     margin-right: 50px;
 }
+
+#faq {
+    padding-right: 40px;
+}
+
+#mentions {
+    padding-right: 30px;
+}
+
+#conditions {
+    margin-left: 20px;
+}
