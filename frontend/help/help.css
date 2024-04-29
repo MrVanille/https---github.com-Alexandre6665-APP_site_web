@@ -64,7 +64,7 @@ form input[type="text"] {
     background-color: rgb(213, 209, 209);
 }
 
-form input[type="button"] {
+form input[type="submit"] {
     width: 200px;
     height: 35px;
     margin-top: 20px;
@@ -74,7 +74,7 @@ form input[type="button"] {
     cursor: pointer;
 }
 
-form input[type="button"]:hover {
+form input[type="submit"]:hover {
     background: linear-gradient(129deg, #F24E1E, #68a4d8);
     color: black;
     scale: 1.1;
